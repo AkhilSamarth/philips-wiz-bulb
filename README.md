@@ -8,7 +8,7 @@ This is a script you can use to easily manipulate a Philips Wiz lightbulb outsid
 
 `changeState(state=None)` - Turns the bulb on or off. True turns the bulb on, False turns it off, and None will toggle the bulb.
 
-`smoothTemp(start=4500, end=3000, duration=60)` - Smoothly transitions between the given color temperatures in `duration` minutes. Default parameters will transition from a cool white to a warm white over the course of an hour (useful for a bedroom in which you work).
+`smoothTemp(start=4500, end=3000, duration=60)` - Smoothly transitions between the given color temperatures in `duration` seconds. Default parameters will transition from a cool white to a warm white over the course of an hour (useful for a bedroom in which you work).
 
 ## Technical Details
 
