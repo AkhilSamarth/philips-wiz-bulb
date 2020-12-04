@@ -12,7 +12,7 @@ This is a script you can use to easily manipulate a Philips Wiz lightbulb outsid
 
 ## Technical Details
 
-These lightbulbs communicate with their apps using a UDP port on port 38899. The communication itself occurs through JSON objects with a few simple parameters. The following is the format of the JSON sent from the app to the bulb:
+These lightbulbs communicate with their apps using UDP port 38899. The communication itself occurs through JSON objects with a few simple parameters. The following is the format of the JSON sent from the app to the bulb:
 
 ```
 {
